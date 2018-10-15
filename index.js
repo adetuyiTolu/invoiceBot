@@ -7,6 +7,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
+app.get('/', function(req, res) {
+    res.send(200);
+});
+
 app.listen(port, ()=>{
   console.log("server started at port 8080");
 });
