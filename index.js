@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/', function(req, res) {
-    res.status(200).send("955024735");
+    res.status(200).end();
 });
 
 app.listen(port, ()=>{
