@@ -1,4 +1,4 @@
-const API_AI_TOKEN = 'your Dialogflow Client Access Token';
+const API_AI_TOKEN = 'dbc6bee5374b42aba01520252c1d01c0';
 const FACEBOOK_ACCESS_TOKEN = 'EAAGqArAZCv8MBADmiGQ3ruPQxxR5Rj7JmCT567wveZAX9wGmjjwuivaOhT4C0OpYZAbDwBXpZAZC1pD6BthkUj5JMATR0Korc0kMPT9ZCSpb6K7hZBYOfX8rOzeArs1XAWLNEnZCxybJfHbctkEMqXXZBdtq7NVU1lUUnhZCuz5HP10wZDZD';
 const apiAiClient = require('apiai')(API_AI_TOKEN);
 const sendTextMessage = (senderId, text) =>
