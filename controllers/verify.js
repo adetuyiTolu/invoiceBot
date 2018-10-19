@@ -1,6 +1,5 @@
 module.exports = (req, res) =>{
 
-  console.log(req.query);
   const hubChallenge = req.query['hub.challenge'];
   const hubMode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
